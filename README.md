@@ -1,4 +1,21 @@
-# PortFolio_Website
-Complete Portfolio Website with Bootstrap - HTML/CSS In this project, we are going to learn and build how to create a complete portfolio website with bootstrap using HTML and CSS. We will understand everything from scratch. 
+# PortFolio_Website ( MY PROJECT )
+  
+## แนะนำ
+  "MY PROJECT" เป็นโปรเจกต์เว็บที่ถูกสร้างขึ้นโดยกลุ่มผู้พัฒนา 4 คนที่อาจารย์สั่งงานเขียนโปรแกรม. เว็บนี้ถูกพัฒนาขึ้นด้วย HTML, CSS, และ JavaScript เพื่อนำเสนอผลงานทางการออกแบบ website ของเรา.
 
-## To execute this project just open index.html file in the browser.
+## คุณสมบัติ
+  หน้าหลัก: แสดงชื่อโปรเจกต์และเมนูนำทาง
+  ผลงาน: แสดงผลงาน website ต่างๆ 
+  ความเข้ากันได้กับอุปกรณ์: ออกแบบให้เข้ากันได้กับหลายขนาดหน้าจอ
+  เทคโนโลยีที่ใช้: HTML, CSS, และ JavaScript
+
+## ผู้ร่วมทีม
+  นาย สาทร กมลาสิน รหัสนักศึกษา 116610906002-8
+  นางสาว วรารัตน์ พิริยะอำรุง รหัสนักศึกษา 110010906024-2
+  นาย กิจอนันท์ อ่อนบึง รหัสนักศึกษา 116610906009-3
+  นางสาว กวิสรา พรหมบรรดิษฐ รหัสนักศึกษา 116610906009-3
+  
+## ลิขสิทธิ์และใบอนุญาต
+  © 2024 MY PROJECT. TEAM AMONG AS.
+
+
