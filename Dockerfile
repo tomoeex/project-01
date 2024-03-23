@@ -1,7 +1,7 @@
 FROM nginx
 
-COPY index.html /usr/share/nginx/html
-COPY style.css /usr/share/nginx/html
-COPY script.js /usr/share/nginx/html
+COPY index.html \Users\armwo\Documents\GitHub\project-01
+COPY style.css \Users\armwo\Documents\GitHub\project-01\css
+COPY main.js \Users\armwo\Documents\GitHub\project-01\js
 
 CMD ["nginx", "-g", "daemon off;"]
