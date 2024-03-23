@@ -1,7 +1,7 @@
 const express = require('express');
 const path = require('path');
 const app = express();
-const port = 8082;
+const port = 8009;
 
 // Define the directory where your static files (like index.html) are located
 const staticDir = path.join(__dirname); // ไม่ใช้ 'public' แล้ว
