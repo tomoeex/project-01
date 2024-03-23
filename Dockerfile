@@ -1,24 +1,24 @@
-# Choose the base image (from Docker Hub) as the starting runtime to run the project
-# Here, we select the node image version 18
+# เลือกภาพหลัก (จาก Docker Hub) เป็นรันไทม์เริ่มต้นในการเรียกโปรเจกต์
+# ที่นี่เราเลือกภาพโหนดรุ่น 18
 FROM node:18
 
-# Set the working directory in the container (when it is run)
+# กำหนดไดเรกทอรีทำงานในคอนเทนเนอร์ (เมื่อรัน)
 WORKDIR /usr/src/app
 
-# Copy the package.json file from the local machine into the container
+# คัดลอกไฟล์ package.json จากเครื่องท้องถิ่นเข้าไปในคอนเทนเนอร์
 COPY package.json .
 
-# Install Node.js dependencies
+# ติดตั้ง Node.js dependencies
 RUN npm install
 
-# Copy the index.html file into the container
-COPY Index.html .
+# คัดลอกไฟล์ index.html เข้าคอนเทนเนอร์
+COPY index.html .
 
-# Copy the index.js file into the container
+# คัดลอกไฟล์ index.js เข้าคอนเทนเนอร์
 COPY index.js .
 
-# Expose port 8000 for access
+# เปิดเผยพอร์ต 8000 เพื่อให้เข้าถึงได้
 EXPOSE 8000
 
-# Set the command to start running the application when the container starts
+# กำหนดคำสั่งเพื่อเริ่มการรันแอปเมื่อคอนเทนเนอร์เริ่มทำงาน
 CMD ["node", "index.js"]
