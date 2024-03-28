@@ -1,8 +1,8 @@
-version: '3'
+version: '3.8'
 
 services:
-  project-01:
-    container_name: pro
+  project:
+    container_name: container
     build: 
       context: .
       dockerfile: Dockerfile
@@ -18,6 +18,8 @@ services:
       MYSQL_DATABASE: tutorial
     ports:
       - "3306:3306"
+    volumes:
+      - mysql_data_test:/var/lib/mysql # เปลี่ยน path เป็น volume ที่เราสร้างไปด้านล่างใน docker-compose
 
   phpmyadmin:
     image: phpmyadmin/phpmyadmin:latest
@@ -30,3 +32,6 @@ services:
       - "8080:80"
     depends_on:
       - db
+volumes:
+  mysql_data_test: # กำหนดชื่อ volume ที่ต้องการจะสร้าง
+    driver: local

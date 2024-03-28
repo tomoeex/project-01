@@ -3,7 +3,6 @@ const path = require('path');
 const mysql = require('mysql2'); // เพิ่มโมดูล mysql2
 const app = express();
 const port = 80;
-
 let conn = null
 
 const initMySQL = async () => {
